@@ -14,8 +14,8 @@ pool:
 steps:
 - task: NodeTool@0
   inputs:
-    versionSpec: '12.x'
-  displayName: 'Install Node.js v12.x'
+    versionSpec: '18.x'
+  displayName: 'Install Node.js v18.x'
 
 - script: npm install -g artillery@latest
   displayName: 'Install Artillery'
